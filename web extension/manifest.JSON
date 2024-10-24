@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Web Locker",
+    "version": "1.0",
+    "description": "A simple chrome extension for blocking websites.",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "/images/lock.png"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "storage",
+        "declarativeNetRequest",
+        "declarativeNetRequestFeedback"
+    ],
+    "background": {
+    "service_worker": "background.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  },
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "web_accessible_resources": [
+    {
+      "resources": ["/blocked.html"],
+      "matches": ["<all_urls>"] 
+    }
+]
+}

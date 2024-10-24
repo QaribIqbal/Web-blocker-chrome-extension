@@ -1,0 +1,132 @@
+body,html {
+    margin: 0px;
+    font-family: Inter, sans-serif;
+   margin: 0%;
+   padding: 0%;
+   width: 332px;
+   height: 500px;
+   background-color: white;
+   overflow: hidden;
+background-image: linear-gradient(to bottom,rgb(146, 252, 254),rgb(93, 19, 252));
+
+z-index: -2;
+}
+.home_img{
+    width: 70%;
+    height: 50vh;
+    margin: 0%;
+    margin-left: 15%;
+    padding: 0%;
+}
+input {
+    width: 90%;
+    margin-top: 2vh;
+    margin-left: 3.5vh;
+    margin-right: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    box-sizing: border-box;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    border-color: green;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+#save-btn,#del-btn,#web_list {
+    margin-top: 1vh;
+    margin-left: 3.5vh;
+    margin-right: 2vh;
+    border-style: none;
+    background-color: green;
+    color: aliceblue;
+    font-weight: bolder;
+    padding: 2vh 4vh;
+    width: 90%;
+    border-radius: 4vh;
+}
+#web_list{
+    background-color: grey;
+    margin: 0%;
+    border: none;
+}
+
+a{
+    color: white;
+    text-decoration-line: none;
+    cursor: pointer;
+    transform: scale(1.1);
+    margin-left: 3.5vh;
+    width: 85%;
+}
+#save-btn:hover,
+#del-btn:hover,
+#web_list:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    margin-left: 5vh;
+    width: 85%;
+}
+#web_list:hover {
+    margin-left: 2vh;
+    width: 85%;
+}
+.remove {
+   
+    font-size: medium;
+   /* margin: 1vh;
+    padding: 1vh;*/
+    background-color: none;
+}
+
+.remove2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.remove:focus{
+    outline: none;
+}
+#del-btn {
+    background-color: red;
+}
+li {
+    margin-bottom: 1.5vh;
+}
+#error-msg{
+-webkit-text-stroke: 0.01vh;
+-webkit-text-stroke-color: black;
+margin: 0%;
+padding: 2%;
+margin-left: 1%;
+color: aquamarine
+}
+#scroll-table{
+    background-color: black; /* Background color for the table container */
+    border-radius: 10px; 
+    scrollbar-width: none;
+    padding: 0%;
+    margin: 1%; /* Add some margin around the table */
+    overflow-y: auto; /* Enables vertical scrolling */
+    overflow-x: hidden;
+    z-index: -1;
+    max-height: 312px;
+}
+.mb-4{
+    max-height: 312px; /* Set fixed height for the scrollable area */
+    color:white;
+    background-color: black;
+    font-weight: bolder;
+    margin: 0%;
+    padding: 0%;
+}
+.mb-4, .my-4 {
+    margin-bottom: 0rem !important;
+}
+
+#back_arrow:hover{
+    transform: scale(1.1);
+}
+#list-body{
+    background-color: grey;
+    color: aliceblue;
+}
