@@ -1,0 +1,1 @@
+This chrome extension is built using html css and javascript using manifest.json file and some built in chrome funcitons. This extension allows user to block the sites by just clicking one button or by manually enetering url
